@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import NeuralNetwork as NN
 
+
 # Importing tratin and test data
 train = pd.read_csv("dataset/nba_logreg.csv", header=None)
 test = pd.read_csv("dataset/test.csv", header=None)
